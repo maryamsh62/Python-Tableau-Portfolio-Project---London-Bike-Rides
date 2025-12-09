@@ -1,9 +1,9 @@
-# London Bike Rides 2015-2017
+# London Bike Rides 2015-2016
 
 This project analyzes the [London Bike Sharing dataset](https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset) from Kaggle and turns it into an interactive Tableau dashboard. Python is used for data access and preparation, and Tableau is used for visual exploration of bike-sharing patterns over time and weather conditions.
 
 
-![London Bike Rides Dashboard]()
+![London Bike Rides Dashboard](https://github.com/maryamsh62/Python-Tableau-Portfolio-Project---London-Bike-Rides/blob/master/London%20Bike%20Rides%20Dashboard.png)
 
 [TableauPublic](https://public.tableau.com/app/profile/maryamsadat.shakeri/viz/LondonBikeRides_17652456944070/LondonBikeRidesDashboard)
 
@@ -37,7 +37,7 @@ This dataset contains hourly records of bike rentals in London, along with weath
 
 It includes variables such as `temperature`, `wind speed`, `humidity`, `weather conditions`, and whether the day is a working day or holiday.
 
-This structure makes it ideal for exploring how time of day and weather affect bike usage patterns.
+This structure makes it ideal for exploring how the time of day and weather affect bike usage patterns.
 
 
 ---
@@ -115,7 +115,7 @@ The dashboard relies on a set of user-defined parameters and calculated fields t
    - A set based on the `Moving Average Timeframe` field.
    - Used to highlight the selected portion of the timeline.
 
-2. **`Min Month` and `Max Month`** (calculated fields)  
+2. **` Min Month` and `Max Month`** (calculated fields)  
    - Capture the minimum and maximum months in the dataset.
    - Useful for setting up axis ranges and default slider values.
 
